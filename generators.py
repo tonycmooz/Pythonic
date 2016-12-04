@@ -83,3 +83,13 @@ print g.next()
 # More on Generators
 # PEP 255
 # https://www.python.org/dev/peps/pep-0255/
+
+# LOOK UP ?????
+# Sometimes you have to use generators -- for example, if youre writing 
+# coroutines with cooperative scheduling using yield.
+
+
+
+
+
+
