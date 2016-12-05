@@ -26,5 +26,3 @@ def sum_function():
 
 print(sum_function())
 
-# if __name__ == "__main__":
-    # time_it()
