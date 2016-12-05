@@ -57,15 +57,11 @@ sum(x*x for x in range(10))
 # Having a syntax similar to list comprehensions also makes it easy to convert 
 # existing code into a generator expression when scaling up application.
 
-# Early timings showed that generators had a significant performance advantage 
-# over list comprehensions. However, the latter were highly optimized for Py2.4 
-# and now the performance is roughly comparable for small to mid-sized data 
-# sets. As the data volumes grow larger, generator expressions tend to perform
-# better because they do not exhaust cache memory and they allow Python to 
+# As data volumes gets larger, generator expressions tend to perform
+# since they do not exhaust cache memory and allow Python to 
 # re-use objects between iterations.
 
-# The semantics of a generator expression are equivalent to creating an anonymous 
-# generator function and calling it. For example:
+
 
 g = (x**2 for x in range(10))
 print g.next()
