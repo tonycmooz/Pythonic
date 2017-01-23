@@ -3,7 +3,7 @@
 # functions in the Python documentation.
 
 # The syntax is the * and **. The names *args and **kwargs are only by 
-# convention but there is s no hard requirement to use them
+# convention but there is no hard requirement to use them
 
 # You would use *args when you are not sure how many arguments might be 
 # passed to your function, i.e. it allows you to pass an arbitrary number
