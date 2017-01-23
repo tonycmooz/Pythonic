@@ -18,5 +18,3 @@ def foo():
 # print globals() # uncomment to see
 foo()
 
-
-
